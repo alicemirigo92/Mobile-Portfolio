@@ -25,6 +25,7 @@ header {
 .headline {
   height: 74px;
   width: 320px;
+  border: 1px solid red;
 }
 
 .icon {
@@ -33,6 +34,7 @@ header {
   height: 74px;
   left: 0;
   top: 0;
+  background-image: url("./image/image1.png");
 }
 
 .menu {
@@ -41,6 +43,7 @@ header {
   height: 14px;
   left: 284px;
   top: 19px;
+  background-image: url("./image/icon.svg");
 }
 
 .headline-section {
@@ -48,6 +51,7 @@ header {
   flex-direction: column;
   gap: 20px;
   padding-left: 16px;
+  border: 1px solid red;
 }
 
 .headline-section > h1 {
@@ -86,3 +90,4 @@ header {
   background: #1a2236;
   padding: 12px 42px;
 }
+
