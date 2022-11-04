@@ -7,12 +7,12 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;;
+  justify-content: center;
   align-items: center;
-  height: 180px;
+  height: 4910px;
   width: 320px;
-} 
-    
+}
+
 header {
   position: absolute;
   top: 0;
@@ -31,8 +31,8 @@ header {
   position: absolute;
   width: 111px;
   height: 74px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .menu {
