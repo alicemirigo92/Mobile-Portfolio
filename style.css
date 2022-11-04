@@ -16,16 +16,16 @@ body {
 header {
   position: absolute;
   top: 0;
-  height: 440px;
+  height: 627px;
   width: 320px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .headline {
   height: 74px;
   width: 320px;
-  border: 1px solid red;
 }
 
 .icon {
@@ -51,7 +51,6 @@ header {
   flex-direction: column;
   gap: 20px;
   padding-left: 16px;
-  border: 1px solid red;
 }
 
 .headline-section > h1 {
@@ -89,4 +88,11 @@ header {
   height: 50px;
   background: #1a2236;
   padding: 12px 42px;
+}
+
+header > img {
+  position: absolute;
+  width: 320px;
+  height: 160px;
+  top: 440px;
 }
